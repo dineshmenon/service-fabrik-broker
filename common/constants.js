@@ -388,5 +388,9 @@ module.exports = Object.freeze({
   },
   NETWORK_MANAGER: {
     NETWORK_ID: 'SF'
+  },
+  DOCKER_HOST_CONFIG: {
+    PIDS_LIMIT: 150,
+    CPU_QUOTA: 0.05
   }
 });
