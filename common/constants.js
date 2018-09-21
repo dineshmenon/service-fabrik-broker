@@ -391,6 +391,6 @@ module.exports = Object.freeze({
   },
   DOCKER_HOST_CONFIG: {
     PIDS_LIMIT: 150,
-    CPU_QUOTA: 0.05
+    CPU_QUOTA: 50000000
   }
 });
